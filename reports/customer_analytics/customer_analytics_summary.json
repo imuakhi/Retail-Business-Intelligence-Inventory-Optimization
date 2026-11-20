@@ -1,0 +1,27 @@
+{
+    "total_customers": 5878,
+    "rfm_segments": 6,
+    "selected_kmeans_clusters": 2,
+    "customers_in_churn_dataset": 5281,
+    "historical_90_day_no_purchase_rate_pct": 56.6,
+    "selected_churn_model": "RandomForest",
+    "clv_scenario_names": [
+        "Conservative",
+        "Base",
+        "Optimistic"
+    ],
+    "clv_assumptions": {
+        "Conservative": {
+            "gross_margin": 0.1,
+            "lifespan_years": 1.0
+        },
+        "Base": {
+            "gross_margin": 0.2,
+            "lifespan_years": 2.0
+        },
+        "Optimistic": {
+            "gross_margin": 0.3,
+            "lifespan_years": 3.0
+        }
+    }
+}

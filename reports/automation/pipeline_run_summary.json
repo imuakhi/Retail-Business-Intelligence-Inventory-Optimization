@@ -1,0 +1,38 @@
+{
+    "started_at": "2026-11-20T19:47:32.670981",
+    "finished_at": "2026-11-20T19:48:37.528294",
+    "overall_status": "SUCCESS",
+    "total_stages": 4,
+    "successful_stages": 4,
+    "failed_stages": 0,
+    "stages": [
+        {
+            "stage": "Data Quality and ETL",
+            "module": "src.data_engineering.etl_pipeline",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "duration_seconds": 18.48
+        },
+        {
+            "stage": "Customer Intelligence",
+            "module": "src.customer_intelligence.customer_intelligence",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "duration_seconds": 28.52
+        },
+        {
+            "stage": "Monte Carlo Inventory Simulation",
+            "module": "src.inventory.monte_carlo_inventory",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "duration_seconds": 17.77
+        },
+        {
+            "stage": "Data and Model Monitoring",
+            "module": "src.monitoring.monitoring",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "duration_seconds": 0.09
+        }
+    ]
+}

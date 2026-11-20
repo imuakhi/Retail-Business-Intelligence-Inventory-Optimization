@@ -1,0 +1,12 @@
+Feature,Importance
+Orders_Per_30_Days,0.2128873164328628
+Recency_Days,0.1918870581434055
+Gross_Revenue,0.13029265940335166
+Unique_Products,0.09950036194352065
+Avg_Order_Value,0.08355548604953622
+Tenure_Days,0.07747388324792463
+Mean_Interpurchase_Days,0.07542254857229486
+Active_Days,0.07153420162099368
+Frequency,0.05744648458611015
+Return_Value,0.0
+Return_Rate,0.0

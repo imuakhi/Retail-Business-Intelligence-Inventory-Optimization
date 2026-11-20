@@ -1,0 +1,2 @@
+Selected_Model,Products_Forecasted,Forecast_Horizon_Weeks,Training_Rows_Used,Testing_Rows,Test_Start_Week,MAE,RMSE,WAPE_pct
+LightGBM,4916,12,250000,58992,2011-09-19,20.872042540235196,345.1243845127535,62.574091221954475

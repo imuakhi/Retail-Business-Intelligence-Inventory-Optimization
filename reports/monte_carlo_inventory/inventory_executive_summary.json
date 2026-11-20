@@ -1,0 +1,14 @@
+{
+    "products_simulated": 500,
+    "simulations_per_product": 500,
+    "simulation_horizon_weeks": 26,
+    "traditional_average_cost": 3961.901847192171,
+    "optimized_average_cost": 6158.491259188471,
+    "estimated_cost_saving": -2196.5894119963004,
+    "estimated_cost_saving_percent": -55.44280238928785,
+    "traditional_average_fill_rate": 0.7690902038854761,
+    "optimized_average_fill_rate": 0.9667184081684068,
+    "traditional_average_stockout_probability": 0.699652,
+    "optimized_average_stockout_probability": 0.201276,
+    "interpretation": "Scenario simulation results using historical demand bootstrap and available or assumed inventory inputs."
+}

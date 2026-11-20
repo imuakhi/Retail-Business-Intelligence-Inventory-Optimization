@@ -1,0 +1,21 @@
+{
+    "selected_model": "RandomForest",
+    "target_definition": "1 = no positive purchase during the next 90 days after the observation cutoff",
+    "observation_cutoff": "2011-09-10 12:50:00",
+    "outcome_end_date": "2011-12-09 12:50:00",
+    "feature_columns": [
+        "Recency_Days",
+        "Frequency",
+        "Gross_Revenue",
+        "Avg_Order_Value",
+        "Unique_Products",
+        "Active_Days",
+        "Tenure_Days",
+        "Orders_Per_30_Days",
+        "Return_Value",
+        "Return_Rate",
+        "Mean_Interpurchase_Days"
+    ],
+    "classification_threshold": 0.5,
+    "note": "Historical inactivity proxy; not a verified future churn prediction."
+}

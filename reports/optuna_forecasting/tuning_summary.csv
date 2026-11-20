@@ -1,0 +1,2 @@
+Selected_Model,Final_Test_WAPE,Final_Test_MAE,Final_Test_RMSE,Walk_Forward_Folds,Trials_Per_Model,Future_Forecast_Weeks,Forecasted_Products
+LightGBM,62.52162533480888,20.85454216257043,345.37591277477145,3,10,12,4916

@@ -1,0 +1,9 @@
+query_name,rows_returned,columns,status,output_file
+monthly_revenue,6,8,SUCCESS,reports\sql_analytics\monthly_revenue.csv
+yoy_growth,6,4,SUCCESS,reports\sql_analytics\yoy_growth.csv
+top_products,20,8,SUCCESS,reports\sql_analytics\top_products.csv
+country_performance,31,6,SUCCESS,reports\sql_analytics\country_performance.csv
+customer_ranking,100,6,SUCCESS,reports\sql_analytics\customer_ranking.csv
+repeat_customers,2,4,SUCCESS,reports\sql_analytics\repeat_customers.csv
+cohort_analysis,21,5,SUCCESS,reports\sql_analytics\cohort_analysis.csv
+revenue_trends,6,4,SUCCESS,reports\sql_analytics\revenue_trends.csv

@@ -1,0 +1,28 @@
+{
+    "simulations_per_product": 500,
+    "simulation_horizon_weeks": 26,
+    "review_period_weeks": 1,
+    "max_products": 500,
+    "random_seed": 42,
+    "service_levels_by_abc": {
+        "A": 0.98,
+        "B": 0.95,
+        "C": 0.9,
+        "DEFAULT": 0.95
+    },
+    "default_lead_time_weeks": 2,
+    "default_ordering_cost": 50.0,
+    "default_holding_cost_rate": 0.25,
+    "unit_cost_factor_of_average_selling_price": 0.6,
+    "stockout_penalty_multiple_of_unit_cost": 2.0,
+    "forecast_source": "reports\\optuna_forecasting\\tuned_future_forecast.csv",
+    "demand_sampling": "Bootstrap historical weekly demand and scale to future weekly forecast mean",
+    "current_stock_fallback": "Three weeks of forecast demand when no usable current-stock field is available",
+    "limitations": [
+        "Current stock and supplier lead time may be synthetic.",
+        "Unit cost may be estimated as 60% of average selling price.",
+        "Ordering and holding costs may be assumptions.",
+        "Stockout penalty is a scenario assumption.",
+        "The simulation is not a verified real-company outcome."
+    ]
+}

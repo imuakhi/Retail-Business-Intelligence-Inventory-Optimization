@@ -1,0 +1,72 @@
+
+services:
+
+  api:
+
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+
+    container_name: retail_bi_api
+
+    command:
+      - python
+      - -m
+      - uvicorn
+      - src.api.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    volumes:
+      - ../reports:/app/reports:ro
+      - ../models:/app/models:ro
+      - ../data/warehouse:/app/data/warehouse:ro
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health', timeout=5)"
+
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  dashboard:
+
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+
+    container_name: retail_bi_dashboard
+
+    command:
+      - streamlit
+      - run
+      - dashboard_app.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+
+    ports:
+      - "127.0.0.1:8501:8501"
+
+    volumes:
+      - ../reports:/app/reports:ro
+      - ../models:/app/models:ro
+      - ../data/warehouse:/app/data/warehouse:ro
+
+    depends_on:
+      api:
+        condition: service_healthy
+
+    restart: unless-stopped

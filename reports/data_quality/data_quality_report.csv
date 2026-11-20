@@ -1,0 +1,13 @@
+Check,Category,Affected_Rows,Severity,Details
+Required Columns,Schema,0,PASS,All required columns are present.
+Missing Values - Customer ID,Completeness,228488,WARNING,228488 missing values in Customer ID.
+Duplicate Rows,Uniqueness,0,PASS,Detected 0 duplicate rows.
+Invalid Numeric Values - Quantity,Validity,0,PASS,0 non-numeric values in Quantity.
+Invalid Numeric Values - Price,Validity,0,PASS,0 non-numeric values in Price.
+Zero Quantity,Business Rules,0,PASS,Zero-quantity transactions require review.
+Negative Quantity / Returns,Business Rules,0,PASS,Negative quantities may represent legitimate returns.
+Negative Price,Business Rules,0,PASS,Negative unit prices require investigation.
+Zero Price,Business Rules,0,PASS,Zero-priced products require business review.
+Invalid Invoice Dates,Validity,0,PASS,0 dates could not be parsed.
+Outliers - Quantity,Statistical,53061,INFO,"IQR lower bound: -15.500, upper bound: 28.500."
+Outliers - Price,Statistical,78999,INFO,"IQR lower bound: -3.070, upper bound: 8.450."

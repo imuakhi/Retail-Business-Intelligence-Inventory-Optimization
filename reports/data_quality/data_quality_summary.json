@@ -1,0 +1,11 @@
+{
+    "total_rows": 1007913,
+    "total_columns": 12,
+    "total_checks": 12,
+    "passed_checks": 9,
+    "critical_failures": 0,
+    "warning_checks": 1,
+    "quality_score_percent": 75.0,
+    "dataset": "clean_sales.csv",
+    "note": "Quality score is a simple check-pass ratio, not a statistical guarantee of data correctness."
+}

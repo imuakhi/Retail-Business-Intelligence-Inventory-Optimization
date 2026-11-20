@@ -1,0 +1,4 @@
+Scenario,Gross_Margin_Assumption,Expected_Lifespan_Years,Basis
+Conservative,0.1,1.0,Illustrative assumption; replace with business evidence
+Base,0.2,2.0,Illustrative assumption; replace with business evidence
+Optimistic,0.3,3.0,Illustrative assumption; replace with business evidence

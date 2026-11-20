@@ -1,0 +1,7 @@
+{
+    "source": "reports\\optuna_forecasting\\tuned_test_predictions.csv",
+    "metrics": {
+        "LightGBM": 62.52162533480888,
+        "XGBoost": 63.10641740340267
+    }
+}

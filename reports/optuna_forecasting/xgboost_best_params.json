@@ -1,0 +1,12 @@
+{
+    "validation_wape": 66.45778291538697,
+    "parameters": {
+        "n_estimators": 150,
+        "max_depth": 5,
+        "learning_rate": 0.04184263761235187,
+        "subsample": 0.8368209952651108,
+        "colsample_bytree": 0.935552788417904,
+        "min_child_weight": 2.7970640394252375,
+        "reg_lambda": 1.0677482709481354
+    }
+}

@@ -1,0 +1,3 @@
+Model,Previous_WAPE_pct,Current_WAPE_pct,Change_WAPE_points,Relative_Change_pct,Status
+LightGBM,,62.52162533480888,,,NO_COMPARABLE_PREVIOUS_RUN
+XGBoost,,63.10641740340267,,,NO_COMPARABLE_PREVIOUS_RUN

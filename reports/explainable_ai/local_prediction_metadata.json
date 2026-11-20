@@ -1,0 +1,10 @@
+{
+    "StockCode": "90051",
+    "Week": "2011-12-05",
+    "Model_Predicted_Demand": 0.13814278308724745,
+    "Predicted_Log_Demand": 0.12939779627585346,
+    "SHAP_Base_Value_Log_Scale": 1.0678341663650135,
+    "Sum_SHAP_Contributions": -0.9384363700891605,
+    "Reconstructed_Log_Prediction": 0.12939779627585302,
+    "Explanation_Scale": "SHAP contributions explain log1p(Demand), not raw demand units."
+}

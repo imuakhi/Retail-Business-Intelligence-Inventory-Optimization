@@ -1,0 +1,44 @@
+
+# Virtual environments
+.venv/
+.venv312/
+.venv*/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset files
+/data/
+/online_retail_II.xlsx
+/online+retail+ii.zip
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained models
+/models/
+
+# Logs
+/logs/
+
+# Secret files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Customer-level private reports
+/reports/customer_analytics/rfm_customer_segments.csv
+/reports/customer_analytics/customer_clv_scenarios.csv
+/reports/customer_analytics/customer_churn_features.csv
+/reports/customer_analytics/churn_test_predictions.csv
+/reports/sql_analytics/customer_ranking.csv
+
+# IDE
+.vscode/
+.gitignore_folder_backup/

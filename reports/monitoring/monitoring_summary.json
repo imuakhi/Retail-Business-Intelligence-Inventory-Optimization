@@ -1,0 +1,8 @@
+{
+    "data_rows_monitored": 1007913,
+    "drift_features_checked": 2,
+    "forecast_models_checked": 2,
+    "baseline_exists": true,
+    "current_profile_exists": true,
+    "note": "Drift thresholds are PSI heuristics. A baseline created from the same historical dataset does not prove real-world data stability. Forecast comparison requires comparable evaluation windows and datasets."
+}
